@@ -1,0 +1,13 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.toggleText{
+    cursoe: pointer;
+    color: var(--color-primary);
+}
+
+.cardWrapper{
+    margin-top: 18
+}
