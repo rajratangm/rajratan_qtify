@@ -9,14 +9,14 @@ export default function CarouselRighttNavigation(){
 
         useEffect(()=>{
             swiper.on('slideChange', function(){
-                setIsEnding(swiper.isEnd)
+                setIsEnding(swiper.isEnding)
             },[swiper])
 
         })
 
         return (
             <div className={styles.rightNavigation}>
-                {!isEnding && <RightArrow onClick={()=> swiper.slideNext()}/>}
+                {!isEnding && <RightArrow onClick={()=> swiper.slidePrev()}/>}
             </div>
         )
 }

@@ -16,7 +16,7 @@ export default function CarouselRighttNavigation(){
 
         return (
             <div className={styles.rightNavigation}>
-                {!isEnding && <RightArrow onClick={()=> swiper.slideNext()}/>}
+                {!isEnding && <RightArrow onClick={()=> swiper.slide()}/>}
             </div>
         )
 }

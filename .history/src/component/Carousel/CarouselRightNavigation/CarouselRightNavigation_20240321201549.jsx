@@ -4,19 +4,19 @@ import {ReactComponent as RightArrow} from '../../../assets/rightArrow.svg'
 import styles from './CarouselRightNavigation.module.css'
 export default function CarouselRighttNavigation(){
     const swiper = useSwiper();
-    const [isEnding, setIsEnding]= useState(swiper.isEnd
+    const [isEnding, setIsEnding]= useState(swiper.is
         )
 
         useEffect(()=>{
             swiper.on('slideChange', function(){
-                setIsEnding(swiper.isEnd)
+                setIsEnding(swiper.isEnding)
             },[swiper])
 
         })
 
         return (
             <div className={styles.rightNavigation}>
-                {!isEnding && <RightArrow onClick={()=> swiper.slideNext()}/>}
+                {!isEnding && <RightArrow onClick={()=> swiper.slidePrev()}/>}
             </div>
         )
 }

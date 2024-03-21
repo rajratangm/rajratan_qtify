@@ -9,7 +9,7 @@ export default function CarouselLeftNavigation(){
 
         useEffect(()=>{
             swiper.on('slideChange', function(){
-                setIsBeginning(swiper.isBeginning)
+                setIsBebinning(swiper.isBeginning)
             },[swiper])
 
         })
