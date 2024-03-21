@@ -1,0 +1,29 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 10px;
+    color:var(--color-white)
+    
+}
+.toggleText{
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+.cardWrapper{
+    margin-top: 18px;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+
+}
+
+.filterWrapper{
+    margin-top: 15px;
+    
+}
