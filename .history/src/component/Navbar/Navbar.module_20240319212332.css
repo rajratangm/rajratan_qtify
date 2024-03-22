@@ -24,8 +24,3 @@ navbar-btn{
 .navbar-btn:hover {
     color: var(--color-white);
   }
-
-  .logoDiv{
-    display: flex;
-    margin: 14px;
-  }

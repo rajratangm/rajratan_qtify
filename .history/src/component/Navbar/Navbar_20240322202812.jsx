@@ -6,7 +6,7 @@ import styles from './Navbar.module.css'
 function Navbar(){
     return (
         <nav className={styles.navbar}>
-            <Logo className={styles.logoDiv}/>
+            <Logo className={styles.lo}/>
             {/* <Search placeholder="Search your favorite album here"/>
             <Button>Give FeedBack</Button> */}
             <Search placeholder={"Search a song of your choice"}/>
