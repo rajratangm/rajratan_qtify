@@ -10,7 +10,7 @@ function Navbar(){
             <Logo/>
             </a>
             <Search placeholder="Search your favorite album here"/>
-            <Button>Give FeedBack</Button>
+            <Button >Give FeedBack</Button>
 
         </nav>
 
