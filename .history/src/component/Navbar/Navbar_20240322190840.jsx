@@ -9,8 +9,6 @@ function Navbar(){
             <Logo/>
             {/* <Search placeholder="Search your favorite album here"/>
             <Button>Give FeedBack</Button> */}
-            <Search search={"Search a song of your choice"}/>
-                <Button children="Give Feedback"/>
 
         </nav>
 
