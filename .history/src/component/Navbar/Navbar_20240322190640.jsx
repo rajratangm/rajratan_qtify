@@ -6,6 +6,7 @@ import styles from './Navbar.module.css'
 function Navbar(){
     return (
         <nav className={styles.navbar}>
+            <a href='/'>
             <Logo/>
             <Search placeholder="Search your favorite album here"/>
             <Button>Give FeedBack</Button>
