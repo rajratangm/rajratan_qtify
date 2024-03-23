@@ -9,7 +9,7 @@ function Navbar(){
         <nav className={styles.navbar}>
              <a href="/">
            <Logo />
-               </a>
+               </Link>
             {/* <Search placeholder="Search your favorite album here"/>
             <Button>Give FeedBack</Button> */}
             <Search placeholder={"Search a song of your choice"}/>
