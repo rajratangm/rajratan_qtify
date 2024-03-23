@@ -25,6 +25,10 @@ navbar-btn{
     color: var(--color-white);
   }
 
-  img{
-    margin-left: 20px;
+  .logoDiv{
+    display: flex;
+    margin: 14px;
+    margin-left: 100px;
   }
+
+  img

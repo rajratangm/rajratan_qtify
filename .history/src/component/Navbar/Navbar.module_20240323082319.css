@@ -24,6 +24,7 @@ navbar-btn{
 .navbar-btn:hover {
     color: var(--color-white);
   }
+  
 
   img{
     margin-left: 20px;
